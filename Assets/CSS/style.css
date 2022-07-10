@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body section */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: black;
+    border-bottom: 1px solid #fff;
+
+}
+.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 15%;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+/* nav ul li a:hover{
+    background-color: orange;
+    border-radius: 6px;
+} */
+
+a::after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+}
+
+ul.login-text{
+    height: 100px;  
+}
+
+
+
+
+
+/* explore section*/
+/* .explore{
+    position: relative;
+    background-image: url(../images/image\ 1.png);
+}
+
+.explore-wrapper{
+    width: 85%;
+    margin: 5% auto;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.explore-img{
+    width: 85%;
+    padding-left: 95%;
+    padding-top: 10;
+    
+}
+
+.explore-text{
+    width: 50%;
+    padding-right: 500px;
+    padding-left: 10px;
+}
+
+.explore-text h1{
+    font-size: 63px;
+    margin-bottom: 20px;
+    padding-top: 0%;
+}
+
+.explore-text p{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.explore-btn{
+    background-color:orange;
+    padding: 30px 15px;
+    color: #fafafa;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.background-container{
+    width: 100%;
+    padding: 0;
+    background-color: aqua;
+    background-image: url(../images/image\ 1.png);
+}
+
+/* why section  */
+
+/* .img1{
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 10;  
+}
+
+.why-section{
+    position: relative;
+    margin-bottom: 150px;
+} */
+
+/* .why-container{
+    width: 80%;
+    margin: 10% auto;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-image{
+    width: 50%;
+} */
+
+/* .why-text{
+    width: 50%;
+    padding-right: 10px;  
+}
+
+.why-text h3{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 25px;  
+} */
+
+/* .why-text p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}  */
+
+/* featured properties  */
+/* .featured-section{
+    padding-bottom: 5px;
+}
+
+.featured-title{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.featured-text{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    width: 680px;
+    padding-top: 20px;
+    margin: 0 auto;
+
+} */
+
+/* .featured-properties{
+    width: 80%;
+    margin: 10% auto;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.ft-card{
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+
+.ft-card img{
+    width: 100%;
+}
+.property-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+} */
+
+/* .detail-content h3{
+    padding-top: 10px;
+}
+
+.detail-content h4{
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.detail-content p{
+    padding-top: 10px;
+} */
+
+
+/* new items se */
+
+
