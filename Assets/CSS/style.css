@@ -86,7 +86,7 @@ ul.login-text{
 }
 
 .explore-image{
-    width: 50%; 
+    width: 55%; 
 }
 .explore-image img{
     width: 100%;
@@ -126,45 +126,38 @@ ul.login-text{
 }
 
 /* why section  */
-
-/* .img1{
-    width: 100%;
-    padding-left: 1%;
-    padding-top: 10;  
-}
-
-.why-section{
+ .whysection{
     position: relative;
-    margin-bottom: 150px;
-} */
+    width: 100%;
+    padding-top: 300px;
+    height: 88vh;
+ }
 
-/* .why-container{
-    width: 80%;
-    margin: 10% auto;
+ .why-wrapper{
+    width: 85%;
+    margin:0 auto;
     display: flex;  
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
 
-.why-image{
+ .why-text{
     width: 50%;
-} */
+    font-size: 30px;
+ }
 
-/* .why-text{
+ .explore-image{
     width: 50%;
-    padding-right: 10px;  
-}
+ }
 
-.why-text h3{
-    font-size: 50px;
-    color: black;
-    margin-bottom: 25px;  
-} */
+ ..explore-image img{
+    width: 100%;
+ }
 
-/* .why-text p{
-    font-size: 25px;
-    margin-bottom: 10px;
-}  */
 
 /* featured properties  */
 /* .featured-section{
