@@ -179,7 +179,7 @@ nav ul li a{
  .whysection{
     position: relative;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 10px;
     height: 88vh;
  }
 
@@ -319,62 +319,74 @@ nav ul li a{
     padding: 2px 16px;
 }
 
+/* bar section */
+.bar{
+    width: 90%;
+    margin: 0 auto;
+    height: 30px;
+    background-color: lightgray;
+    border-top: 3px solid gray;
+    margin-bottom: 100px;
+}
+
 /* feedback section */
-.feedback-section{
-    width: 85%;
-    margin:0 auto;
-    position: relative;
+.feedback-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 150px;
+}
+
+.sect-title{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.feedback-card{
+    border-bottom: 4px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 30px;
+    width: 350px; 
+    margin-bottom: 30px;
+}
+
+.feedback-card h4{
+    font-size: 28px;
+    width: 220px;
+}
+
+.feedback-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feedback-card-container img{
+    width: 50px;
+}
+
+.fa-star{
+    font-size: 30px;
+    color: rgb(255, 89, 0);
+    margin-bottom: 30px;
+}
+
+.plain{
+    color: gray;
 }
 
 
-/* .feedback-row {
-    margin: 0 auto;
-} */
 
-/* .feedback-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
 
-.feedback-column {
-    /* float: left; */
-    /* width: 30%; */
-    /* padding: 0 10px; */
-    /* box-sizing: border-box;  */
-    display: flex; 
-    
-  }
 
-  .feedback-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    justify-content: space-around;
-    padding: 20px;
-    text-align: center;
-    background-color: white;
-    height: 50vh;
-    position: relative;
-    
-  }
+
+ 
   
 
-  .feedback-card h4{
-    font-size: 50px;
-    margin-top: 10px;
-  }
-
-  .feedback-card-container{
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .feedback-card-container img{
-     width: 10%;
-     
-  }
   
 
