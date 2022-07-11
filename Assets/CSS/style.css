@@ -154,6 +154,27 @@ nav ul li a{
     background-image: url(../images/image\ 1.png);
 }
 
+/* counting section */
+.count-wrapper{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 40px;
+    border: 1px solid lightgray ;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    right: -800px;
+    border-bottom: 4px solid lightgray;
+
+}
+
+.count-text{
+    text-align: center;
+    font-weight: bold;
+}
+
 /* why section  */
  .whysection{
     position: relative;
