@@ -269,3 +269,62 @@ ul.login-text{
     padding: 2px 16px;
 }
 
+/* feedback section */
+.feedback-section{
+    width: 85%;
+    margin:0 auto;
+    position: relative;
+    align-items: center;
+    padding-top: 150px;
+}
+
+
+/* .feedback-row {
+    margin: 0 auto;
+} */
+
+/* .feedback-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+.feedback-column {
+    /* float: left; */
+    /* width: 30%; */
+    /* padding: 0 10px; */
+    /* box-sizing: border-box;  */
+    display: flex; 
+    
+  }
+
+  .feedback-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    height: 50vh;
+    position: relative;
+    
+  }
+  
+
+  .feedback-card h4{
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .feedback-card-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .feedback-card-container img{
+     width: 10%;
+     
+  }
+  
+
