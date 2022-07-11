@@ -223,7 +223,7 @@ ul.login-text{
 }
 
 /* new items section */
-/* .newst-item-section{
+.newst-item-section{
     width: 100%;
     height: 88vh;
     background-position: center;
@@ -235,18 +235,18 @@ ul.login-text{
 .newst-h2{
     padding-left: 7.5%;
     margin-bottom: 20px;
-}  */
+} 
 
-/* .newst-item-cards{
+.newst-item-cards{
     width: 85%;
     margin:0 auto;
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
     display: flex;
-} */
+}
 
-/* .cards1{
+.cards1{
     border-bottom: 30px;
 }
 
@@ -261,12 +261,12 @@ ul.login-text{
 
 .newst-item p{
     padding-top: 20px;
-} */
+}
 
-/* .cards:hover{
+.cards:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .text-container{
     padding: 2px 16px;
-} */
+}
 
