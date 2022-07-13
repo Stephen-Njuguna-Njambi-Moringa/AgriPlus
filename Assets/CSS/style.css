@@ -407,7 +407,6 @@ nav ul li a{
 
 .sub-form{
     padding-top: 20px;
-    /* background-color: chartreuse; */
     height: 7vh;
     position: relative;
     
@@ -440,13 +439,12 @@ nav ul li a{
 
 .footer-title{
     font-family: 'Oleo Script', cursive;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .footer-wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .col2 h3{
@@ -465,6 +463,10 @@ nav ul li a{
 }
 .col1 p{
     font-size: 20px;
+}
+
+.col1 h3{
+    padding-bottom: 20px;
 }
 
 
