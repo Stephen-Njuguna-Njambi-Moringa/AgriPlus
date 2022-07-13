@@ -76,11 +76,6 @@ nav ul li a{
    margin-right: 25px;
 }
 
-
-/* .nav-container li a{
-    color: white;
-} */
-
 .sec2{
     font-size: 40px;
     font-weight: bold;
@@ -330,6 +325,10 @@ nav ul li a{
 }
 
 /* feedback section */
+.feedback-section{
+    padding-bottom: 300px;
+}
+
 .feedback-wrapper{
     width: 80%;
     margin: 0 auto;
@@ -337,6 +336,8 @@ nav ul li a{
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .sect-title{
     width: 80%;
@@ -380,13 +381,51 @@ nav ul li a{
     color: gray;
 }
 
+/* subscription section */
 
+.sub-sec{
+    padding-left: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    background-color: black;
+    height: 40vh;
+}
 
+.sub-sec h2{   
+    color: white;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
 
+.sub-sec p{
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
 
+.sub-form{
+    padding-top: 20px;
+    /* background-color: chartreuse; */
+    height: 7vh;
+    position: relative;
+    
 
- 
-  
+}
 
-  
+.input{
+    height: 5%;
+    padding: 17px 20px;
+    width: 450px;
+}
+
+.sub-btn{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255, 111, 0);
+    padding: 12px 20px;
+    border: none; 
+}
+
 
